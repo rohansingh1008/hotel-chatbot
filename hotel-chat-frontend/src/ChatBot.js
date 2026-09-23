@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from "react";
 import { fetchEventSource } from "@microsoft/fetch-event-source";
 
-const API_URL = "https://hotel-chatbot-i4j2.onrender.com";
+const API_URL = "https://hotel-chatbot-i4j2.onrender.com/chat/stream";
 
 function ChatBot() {
   const [messages, setMessages] = useState([]); // { role: "user" | "assistant", content: string }
