@@ -1,0 +1,10 @@
+langgraph
+langchain-groq
+langgraph-checkpoint-sqlite
+python-dotenv
+pydantic
+fastapi
+uvicorn
+sse-starlette
+aiosqlite
+langsmith
